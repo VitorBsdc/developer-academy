@@ -1,0 +1,16 @@
+.card-imgs-container > .card-imgs-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 1rem;
+}
+
+.img-contact {
+    width: 96px;
+    height: 96px; 
+    justify-content: space-around;
+    display: flex;
+    margin: 3rem;
+    cursor: pointer;
+}

@@ -1,0 +1,29 @@
+.container-big-card{
+    padding: 1rem;
+}
+
+.big-card-title > h1{
+    font-size: 20px;
+    margin-top: 15px;
+}
+.big-card-title > h1 > a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 2.3rem;
+    margin-left: 10px;
+}
+.big-card-title > h1 > a:hover{
+    color: rgb(141, 137, 137);
+}
+
+.big-card-description > p{
+    margin-top: 20px;
+    font-size: 1.1rem;
+    margin-left: 15px;
+}
+
+.big-card-photo > img{
+    width: 100%;
+    min-width: 400px;
+    border-radius: 0.8rem;
+}

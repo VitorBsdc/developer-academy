@@ -1,0 +1,40 @@
+.navbar > .navbar-container{
+    display: flex;
+    justify-content: space-between;
+
+    padding: 2rem;
+}
+
+.menu-title{
+    font-size: 2.5rem;
+    padding-left: 30px;
+    font-weight: bold;
+}
+
+.menu-title, .menu-container{
+    display: flex;
+    align-items: center;
+}
+
+.menu-container > .menu-toggler{
+    padding-right: 30px;
+    cursor: pointer;
+    font-size: 1.3rem;
+}
+
+.menu{
+    background-color: rgba(36, 129, 168, 0.4);
+    padding: 0.8rem;
+    border-radius: 0.4rem;
+    font-size: 1.3rem;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.menu-item{
+    cursor: pointer;
+    margin: 0.5rem;
+}
