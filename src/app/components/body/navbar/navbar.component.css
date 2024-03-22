@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
 
-    padding: 2rem;
+    padding: 1.7rem;
 }
 
 .menu-title{
@@ -37,4 +37,8 @@ a{
 .menu-item{
     cursor: pointer;
     margin: 0.5rem;
+}
+
+.container-navbar-separator{
+    margin-bottom: 20px;
 }

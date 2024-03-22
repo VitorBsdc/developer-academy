@@ -1,0 +1,12 @@
+.content-imgs-container > .imgs-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+}
+
+.img-content {
+    width: 450px;
+    height: 250px;
+    border-radius: 0.8rem; 
+}

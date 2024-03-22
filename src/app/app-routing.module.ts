@@ -44,6 +44,10 @@ const routes: Routes = [
   {
     path:'contato',
     component:ContactComponent
+  },
+  {
+    path:'conteudo',
+    component:ContentComponent
   }
 ];
 
