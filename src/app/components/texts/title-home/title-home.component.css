@@ -1,5 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/*Propriedades do titulo geral*/
 .title-home{
-    font-size: 3rem;
+    font-size: 4rem;
     text-align: center;
     padding: 0.5rem;
+}
+.title-home > h1{
+    font-family: "Bebas Neue", sans-serif;
 }

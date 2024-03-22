@@ -1,11 +1,11 @@
-.content-imgs-container > .imgs-content {
+.content-imgs-container > .imgs-content {/*Posicionamento da imagem*/
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 1.5rem;
 }
 
-.img-content {
+.img-content {/*Tamanho da imagem*/
     width: 450px;
     height: 250px;
     border-radius: 0.8rem; 

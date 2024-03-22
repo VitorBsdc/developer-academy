@@ -1,4 +1,4 @@
-.card-imgs-container > .card-imgs-contact {
+.card-imgs-container > .card-imgs-contact {/*Posicionamento da imagem*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -6,7 +6,7 @@
     padding: 1rem;
 }
 
-.img-contact {
+.img-contact {/*Tamanho da imagem e ajustes*/
     width: 96px;
     height: 96px; 
     justify-content: space-around;

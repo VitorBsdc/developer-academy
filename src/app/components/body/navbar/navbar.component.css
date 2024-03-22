@@ -1,44 +1,58 @@
-.navbar > .navbar-container{
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.navbar > .navbar-container{/*Posicionamento do container*/
     display: flex;
     justify-content: space-between;
 
     padding: 1.7rem;
 }
 
-.menu-title{
+.menu-title{/*Caracteristicas do titulo*/
     font-size: 2.5rem;
     padding-left: 30px;
     font-weight: bold;
 }
+.title-navbar{/*Caracteristicas direta do titulo*/
+    font-family: "Bebas Neue", sans-serif;
+}
 
-.menu-title, .menu-container{
+.menu-title, .menu-container{/*Posicionamento especifico dos menu*/
     display: flex;
     align-items: center;
 }
 
-.menu-container > .menu-toggler{
+.menu-container > .menu-toggler{/*Caracteristica dos botões*/
     padding-right: 30px;
     cursor: pointer;
     font-size: 1.3rem;
 }
+.menu-toggler{/*Caracteristica direta dos botões*/
+    font-family: "Nunito", sans-serif;
+    font-weight: 500;
+}
 
-.menu{
+.menu{/*Box de opções*/
     background-color: rgba(36, 129, 168, 0.4);
     padding: 0.8rem;
     border-radius: 0.4rem;
     font-size: 1.3rem;
 }
 
-a{
-    text-decoration: none;
-    color: #ffffff;
-}
-
+/*Itens do box*/
 .menu-item{
     cursor: pointer;
     margin: 0.5rem;
 }
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.menu-item > a{
+    font-family: "Nunito", sans-serif;
+    font-weight: 500;
+}
 
-.container-navbar-separator{
+.container-navbar-separator{/*Linha*/
     margin-bottom: 20px;
 }
