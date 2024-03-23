@@ -1,0 +1,50 @@
+@media screen and (max-width: 430px) {
+    .container-card{
+        width: 400px;
+    }
+    .card-photo > img{
+        width: 180px;
+        height: 120px;
+        margin-right: 20px;
+    }
+    .card-title{
+        line-height: 0.6;
+    }
+    .title > h1 > a {
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width: 375px) {
+    .container-card{
+        width: 320px;
+        padding: 0.6rem;
+    }
+    .card-photo > img{
+        width: 150px;
+        height: 100px;
+        margin-right: 20px;
+    }
+    .card-title{
+        line-height: 0.4;
+    }
+    .title > h1 > a {
+        font-size: 0.8rem;
+    }
+}
+@media screen and (max-width: 320px) {
+    .container-card{
+        width: 300px;
+    }
+    .card-photo > img{
+        width: 130px;
+        height: 90px;
+        margin-right: 20px;
+    }
+    .title > h1 > a {
+        font-size: 0.8rem;
+    }
+    .container-card-separator{
+        margin-top: 5px;
+    }
+}
+/*Alterado diversas propriedades para adaptação do card*/

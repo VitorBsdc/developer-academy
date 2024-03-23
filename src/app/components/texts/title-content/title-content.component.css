@@ -1,11 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
+
+.container{
+    display: flex;
+    justify-content: center;
+}
 /*Propriedades do titulo geral*/
 .title-content{
     font-size: 1.8rem;
     text-align: center;
     padding-top: 2.5rem;
     padding-bottom: 3rem;
+    width: 700px;
 }
 .title-content > h1{
     font-family: "Raleway", sans-serif;

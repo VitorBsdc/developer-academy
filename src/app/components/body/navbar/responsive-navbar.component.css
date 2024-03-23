@@ -1,0 +1,40 @@
+@media screen and (max-width: 430px) {
+    .menu-title{
+        padding-left: 10px;
+        font-size: 1.5rem;
+    }
+    .menu-container > .menu-toggler{
+        padding-right: 10px;
+        font-size: 1rem;
+    }
+    .menu{
+        padding: 0.4rem;
+        font-size: 1rem;
+    }
+    .menu-item{
+        margin: 0rem;
+    }
+}
+@media screen and (max-width: 375px) {
+    .menu-title{
+        font-size: 1rem;
+    }
+    .menu-container > .menu-toggler{
+        padding-right: 10px;
+        font-size: 0.8rem;
+    }
+    .menu{
+        padding: 0.4rem;
+        font-size: 0.8rem;
+    }
+}
+@media screen and (max-width: 320px) {
+    .menu-title{
+        padding-right: 15px;
+        font-size: 0.8rem;
+    }
+    .menu-container > .menu-toggler{
+        padding-right: 10px;
+    }
+}
+/*Ajustes de fonte, padding laterais*/

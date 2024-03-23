@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-img-content',
   templateUrl: './img-content.component.html',
-  styleUrls: ['./img-content.component.css']
+  styleUrls: ['./img-content.component.css', './responsive-img-content.component.css']
 })
 export class ImgContentComponent implements OnInit {
 
