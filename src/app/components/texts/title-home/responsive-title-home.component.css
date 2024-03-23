@@ -1,0 +1,17 @@
+@media screen and (max-width: 430px) {
+    .title-home{
+        font-size: 3rem;
+        line-height: 0.9;
+    }
+}
+@media screen and (max-width: 375px) {
+    .title-home{
+        font-size: 2.5rem;
+    }
+}
+@media screen and (max-width: 320px) {
+    .title-home{
+        font-size: 2rem;
+    }
+}
+/*Ajuste tamanho da fonte*/

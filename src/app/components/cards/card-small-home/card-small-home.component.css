@@ -34,9 +34,6 @@
     font-weight: 600;
     font-style: normal;
 }
-.small-card-title > h1 {
-    font-size: 26px;
-}
 .small-card-title > h1 > a:hover{
     color: rgb(141, 137, 137);
 }

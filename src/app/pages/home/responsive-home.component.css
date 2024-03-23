@@ -1,0 +1,6 @@
+@media screen and (max-width: 430px) {
+    .container-articles{
+        flex-direction: column;
+    }
+}
+/*Flexbox dos cards para column*/
