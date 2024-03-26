@@ -1,8 +1,25 @@
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 820px) {
     .container{
         display: flex;
         justify-content: center;
     }
+    .container-small-card{
+        width: 500px;
+        padding-top: 0;
+    }
+    .small-card-photo > img{
+        width: 180px;
+        height: 120px;
+        margin-right: 20px;
+    }
+    .small-card-title{
+        line-height: 0.6;
+    }
+    .small-card-title > h1 > a{
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width: 430px) {
     .container-small-card{
         width: 400px;
         padding-top: 0;

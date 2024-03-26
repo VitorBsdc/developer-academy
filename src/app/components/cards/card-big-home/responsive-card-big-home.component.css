@@ -1,8 +1,36 @@
-@media screen and (max-width: 430px){
+@media screen and (max-width: 820px){
     .container{
         display: flex;
         justify-content: center;
     }
+    .container-big-card{
+        width: 500px;
+    }
+    .big-card-photo{
+        display: flex;
+        justify-content: center;
+    }
+    .big-card-photo > img{
+        width: 450px;
+        height: 290px;
+    }
+    .big-card-title{
+        width: 450px;
+    }
+    .big-card-title > h1{
+        margin-top: 5px;
+        line-height: 0.9;
+        width: 450px;
+        text-align: justify;
+    }
+    .big-card-title > h1 > a{
+        font-size: 1.4rem;
+    }
+    .description{
+        width: 450px;
+    }
+}
+@media screen and (max-width: 430px){
     .container-big-card{
         width: 400px;
     }

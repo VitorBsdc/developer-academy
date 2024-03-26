@@ -19,7 +19,7 @@
         margin: 0rem;
     }
 }
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 412px) {
     .navbar > .navbar-container{
         padding-left: 0.4rem;
         padding-right: 0.4rem;
