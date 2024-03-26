@@ -21,6 +21,7 @@ import { TextContentComponent } from './components/texts/text-content/text-conte
 import { ImgContentComponent } from './components/imgs/img-content/img-content.component';
 import { NetworksImgContactComponent } from './components/imgs/networks-img-contact/networks-img-contact.component';
 import { ClickOutsideDirectve } from './components/body/navbar/clickOutside.directive';
+import { SpaceFooterComponent } from './components/body/space-footer/space-footer.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +43,8 @@ import { ClickOutsideDirectve } from './components/body/navbar/clickOutside.dire
     TextContentComponent,
     ImgContentComponent,
     NetworksImgContactComponent,
-    ClickOutsideDirectve
+    ClickOutsideDirectve,
+    SpaceFooterComponent
   ],
   imports: [
     BrowserModule,

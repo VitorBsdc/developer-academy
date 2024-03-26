@@ -1,0 +1,5 @@
+@media screen and (max-width: 425px) {
+    .space-footer{
+        padding-bottom: 0.5rem;
+    }
+}

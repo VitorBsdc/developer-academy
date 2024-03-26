@@ -1,56 +1,68 @@
 @media screen and (max-width: 430px){
-    /*.container-big-card{
+    .container{
         display: flex;
         justify-content: center;
-        flex-direction: column;
-    }*/
-    .description{
-        width: 330px;
+    }
+    .container-big-card{
+        width: 400px;
     }
     .big-card-photo{
         display: flex;
         justify-content: center;
     }
     .big-card-photo > img{
+        width: 320px;
         height: 200px;
     }
     .big-card-title > h1{
         margin-top: 5px;
         line-height: 0.9;
-        width: 350px;
-        /**text-align: center;**/
-    }
-    .big-card-title > h1 > a{
-        font-size: 1.6rem;
-    }
-}
-@media screen and (max-width: 375px){
-    .description{
-        width: 320px;
-    }
-    .big-card-photo > img{
-        height: 175px;
-    }
-    .big-card-title{
-        margin-top: 5px;
         width: 330px;
-    }
-    .big-card-title > h1 > a{
-        font-size: 1.5rem;
-    }
-}
-@media screen and (max-width: 320px){
-    .description{
-        width: 270px;
-    }
-    .big-card-photo > img{
-        height: 150px;
-    }
-    .big-card-title{
-        margin-top: 5px;
-        width: 300px;
+        text-align: justify;
     }
     .big-card-title > h1 > a{
         font-size: 1.4rem;
     }
+    .description{
+        width: 330px;
+    }
 }
+@media screen and (max-width: 375px){
+    .container-big-card{
+        width: 345px;
+    }
+    .description{
+        width: 290px;
+    }
+    .big-card-photo > img{
+        width: 290px;
+        height: 170px;
+    }
+    .big-card-title > h1{
+        margin-top: 5px;
+        width: 290px;
+    }
+    .big-card-title > h1 > a{
+        font-size: 1.2rem;
+    }
+}
+@media screen and (max-width: 320px){
+    .container-big-card{
+        width: 290px;
+    }
+    .description{
+        width: 240px;
+    }
+    .big-card-photo > img{
+        width: 240px;
+        height: 150px;
+    }
+    .big-card-title > h1{
+        margin-top: 5px;
+        width: 240px;
+    }
+    .big-card-title > h1 > a{
+        font-size: 1rem;
+    }
+}
+/*Alterado diversas propriedades para adaptação do card*/

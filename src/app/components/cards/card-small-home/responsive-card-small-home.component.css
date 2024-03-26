@@ -1,6 +1,10 @@
 @media screen and (max-width: 430px) {
+    .container{
+        display: flex;
+        justify-content: center;
+    }
     .container-small-card{
-        width: 425px;
+        width: 400px;
         padding-top: 0;
     }
     .small-card-photo > img{
@@ -17,7 +21,7 @@
 }
 @media screen and (max-width: 375px) {
     .container-small-card{
-        width: 370px;
+        width: 320px;
     }
     .small-card-photo > img{
         width: 150px;
@@ -33,7 +37,7 @@
 }
 @media screen and (max-width: 320px) {
     .container-small-card{
-        width: 315px;
+        width: 300px;
     }
     .small-card-photo > img{
         width: 130px;

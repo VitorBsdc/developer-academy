@@ -8,7 +8,7 @@
 
         <div class="menu-container" clickOutside (clickOutside)="clickedOutside()">
             <div class="menu-toggler"><a [routerLink]="['/contato']">Contato</a></div>
-            <div class="menu-toggler" (click)="toggleMenu()">Conteúdos ⇩</div>
+            <div class="menu-toggler" (click)="toggleMenu()"><a>Conteúdos</a></div>
             <div class="menu" *ngIf="isMenuOpened">
                 <div class="menu-item"><a [routerLink]="['/algoritmo']">Algoritmo</a></div>
                 <div class="menu-item"><a [routerLink]="['/programacao']">Programação</a></div>
