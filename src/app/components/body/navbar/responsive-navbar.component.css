@@ -19,10 +19,26 @@
         margin: 0rem;
     }
 }
+@media screen and (max-width: 390px) {
+    .navbar > .navbar-container{
+        padding-left: 0.4rem;
+        padding-right: 0.4rem;
+    }
+    .menu-title{
+        font-size: 1rem;
+    }
+    .menu-container > .menu-toggler{
+        font-size: 0.8rem;
+    }
+    .menu{
+        padding: 0.4rem;
+        font-size: 0.7rem;
+    }
+}
 @media screen and (max-width: 375px) {
     .navbar > .navbar-container{
-        padding-left: 0.5rem;
-        padding-right: 0.5rem;
+        padding-left: 0.4rem;
+        padding-right: 0.4rem;
     }
     .menu-title{
         font-size: 1rem;
