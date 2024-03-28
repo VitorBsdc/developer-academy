@@ -1,7 +1,6 @@
 <div class="container">
     <div class="text-content">
-        <p class="text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mauris lorem, facilisis eu turpis sit amet, molestie euismod velit. Maecenas eu tincidunt leo. Nullam dolor odio, ullamcorper ac sagittis a, pulvinar sed erat. Sed maximus ex in elit pellentesque, vitae gravida enim elementum. Nam tempus convallis nisi sed luctus. Curabitur malesuada lorem tellus, at tempus ipsum interdum non. Donec vitae lacus velit.
-        </p>
+        <!--Condição para exibir + de 1 paragrafo-->
+        <p class="text" *ngFor="let paragraph of contentData.paragraphs">{{paragraph}}</p>
     </div>
 </div>

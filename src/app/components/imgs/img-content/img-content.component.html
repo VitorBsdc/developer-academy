@@ -1,7 +1,13 @@
 <div class="container">
     <div class="content-imgs-container">
         <div class="imgs-content">
-                <img class="img-content" src="https://s1.static.brasilescola.uol.com.br/be/conteudo/images/van-gogh-produziu-a-noite-estrelada-quando-estava-internado-em-um-hospital-psiquiatrico-em-1889-na-franca-5aaa957cb5181.jpg" alt="Linkedin">
+                <!--Condição para exibir fotos no caso de + de 1-->
+                <img 
+                    class="img-content" 
+                    *ngFor="let photo of contentData.photos" 
+                    src="{{photo}}"
+                    alt="Photo"
+                >
         </div>
     </div>
 </div>

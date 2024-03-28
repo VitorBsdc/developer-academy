@@ -18,24 +18,12 @@ const routes: Routes = [
     component:AlgorithmComponent
   },
   {
-    path:'algoritmo/conteudo',
-    component:ContentComponent
-  },
-  {
     path:'programacao',
     component:ProgramacaoComponent
   },
   {
-    path:'programacao/conteudo',
-    component:ContentComponent
-  },
-  {
     path:'estrutura-dados',
     component:DataStructureComponent
-  },
-  {
-    path:'estrutura-dados/conteudo',
-    component:ContentComponent
   },
   {
     path:'sobre-a-profissao',
@@ -46,7 +34,7 @@ const routes: Routes = [
     component:ContactComponent
   },
   {
-    path:'conteudo',
+    path:'conteudo/:id',
     component:ContentComponent
   }
 ];

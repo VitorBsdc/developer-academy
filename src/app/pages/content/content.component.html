@@ -1,6 +1,14 @@
-<app-title-content></app-title-content>
-<app-text-content></app-text-content>
-<app-img-content></app-img-content>
-<app-text-content></app-text-content>
-<app-img-content></app-img-content>
+<div class="content">
+    <app-title-content [title]="content.title"></app-title-content>
+    <ng-container *ngFor="let item of contentItems">
+      <ng-container *ngIf="item.type === 'paragraph'">
+        <app-text-content [contentData]="item.data"></app-text-content>
+      </ng-container>
+      <ng-container *ngIf="item.type === 'photo'">
+        <app-img-content [contentData]="item.data"></app-img-content>
+      </ng-container>
+    </ng-container>
+  </div>
+
+<app-space-footer></app-space-footer>
 <app-space-footer></app-space-footer>

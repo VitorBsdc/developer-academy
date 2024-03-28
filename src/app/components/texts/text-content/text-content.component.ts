@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { Content } from '../../../data/content/content.model';
 
 @Component({
   selector: 'app-text-content',
@@ -6,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./text-content.component.css', './responsive-text-content.component.css']
 })
 export class TextContentComponent implements OnInit {
+  @Input() 
+  contentData: Content = { title: "", paragraphs: [], photos: [] };
 
   constructor() { }
 

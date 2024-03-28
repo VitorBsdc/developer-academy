@@ -6,12 +6,16 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./card-content.component.css', './responsive-card-content.component.css']
 })
 export class CardContentComponent implements OnInit {
+  //Obter rota + id + titulo dinâmico
   @Input()
   getRoute:string = ""
+  @Input()
+  Id:string = "0"
+  @Input()
+  titleCardcontent:string = ""
 
   constructor() { }
 
   ngOnInit(): void {
   }
-
 }
