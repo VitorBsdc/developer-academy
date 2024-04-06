@@ -22,6 +22,9 @@ import { ImgContentComponent } from './components/imgs/img-content/img-content.c
 import { NetworksImgContactComponent } from './components/imgs/networks-img-contact/networks-img-contact.component';
 import { ClickOutsideDirectve } from './components/body/navbar/clickOutside.directive';
 import { SpaceFooterComponent } from './components/body/space-footer/space-footer.component';
+import { TitleAboutProfessionComponent } from './components/texts/title-about-profession/title-about-profession.component';
+import { TextAboutProfessionComponent } from './components/texts/text-about-profession/text-about-profession.component';
+import { ImgAboutProfessionComponent } from './components/imgs/img-about-profession/img-about-profession.component';
 
 @NgModule({
   declarations: [
@@ -44,7 +47,10 @@ import { SpaceFooterComponent } from './components/body/space-footer/space-foote
     ImgContentComponent,
     NetworksImgContactComponent,
     ClickOutsideDirectve,
-    SpaceFooterComponent
+    SpaceFooterComponent,
+    TitleAboutProfessionComponent,
+    TextAboutProfessionComponent,
+    ImgAboutProfessionComponent
   ],
   imports: [
     BrowserModule,

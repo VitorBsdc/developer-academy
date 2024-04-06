@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-card-small-home',
@@ -6,6 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./card-small-home.component.css', './responsive-card-small-home.component.css']
 })
 export class CardSmallHomeComponent implements OnInit {
+  @Input()
+  getRoute:string = ""
+  @Input()
+  titleCardSmall:string = ""
 
   constructor() { }
 

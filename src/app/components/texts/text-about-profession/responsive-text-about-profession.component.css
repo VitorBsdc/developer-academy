@@ -1,0 +1,22 @@
+@media screen and (max-width: 430px) {
+    .text-content{
+        width: 330px;
+    }
+    .text{
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width: 375px) {
+    .text-content{
+        width: 300px;
+    }
+    .text{
+        font-size: 0.8rem;
+    }
+}
+@media screen and (max-width: 320px) {
+    .text-content{
+        width: 250px;
+    }
+}
+/*Ajuste da fonte e tamanho da caixa*/

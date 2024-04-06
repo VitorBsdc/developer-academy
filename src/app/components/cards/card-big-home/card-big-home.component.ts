@@ -8,6 +8,10 @@ import { Component, Input, OnInit } from '@angular/core';
 export class CardBigHomeComponent implements OnInit {
   @Input()
   getRoute:string = ""
+  @Input()
+  titleCardBig:string = ""
+  @Input()
+  descriptionCardBig:string = ""
 
   constructor() { }
 
