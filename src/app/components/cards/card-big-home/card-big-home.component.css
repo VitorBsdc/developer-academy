@@ -16,7 +16,7 @@
 .big-card-title > h1 > a{
     text-decoration: none;
     color: #ffffff;
-    font-size: 2.3rem;
+    font-size: 2rem;
     text-align: justify;
 
     font-family: "Raleway", sans-serif;
@@ -43,6 +43,6 @@
 
 /*Propriedades da imagem*/
 .big-card-photo > img{
-    height: 250px;
+    height: 300px;
     border-radius: 0.3rem;
 }

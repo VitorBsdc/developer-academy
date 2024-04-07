@@ -13,6 +13,8 @@ export class CardContentComponent implements OnInit {
   Id:string = "0"
   @Input()
   titleCardcontent:string = ""
+  @Input()
+  imgCardContent:string = ""
 
   constructor() { }
 

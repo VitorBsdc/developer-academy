@@ -15,7 +15,8 @@ export const dataFakeContent = [
             "Com essas estruturas básicas, o algoritmo se torna mais completo e capaz de lidar com múltiplas situações para alcançar o resultado desejado."
         ],
         "photos": [
-            "https://files.tecnoblog.net/wp-content/uploads/2019/10/fluxograma-lampada-700x394.jpg"
+            "assets/algorithm/fluxograma-lampada-alg.jpg",
+            "assets/algorithm/al-khowarizmi-alg.png"
         ]
     },
     {
@@ -29,7 +30,11 @@ export const dataFakeContent = [
             "5. Spotify: O Spotify personaliza a playlist \"Descobertas da Semana\" com base no perfil musical de cada usuário. O algoritmo analisa o gênero e artistas preferidos, bem como o comportamento dos demais usuários ao combinar músicas em playlists. O objetivo é proporcionar novas experiências musicais, utilizando um amplo modelo de Machine Learning para aprimorar as recomendações.",
         ],
         "photos": [
-            ""
+            "assets/algorithm/facebook-alg.png",
+            "assets/algorithm/twitter-alg.png",
+            "assets/algorithm/instagram-alg.png",
+            "assets/algorithm/youtube-alg.png",
+            "assets/algorithm/spotify-alg.png"
         ]
     },
     {
@@ -44,7 +49,7 @@ export const dataFakeContent = [
             "Em resumo, os algoritmos são ferramentas essenciais para qualquer estratégia de anúncios bem-sucedida, pois permitem uma análise mais profunda dos dados, uma segmentação mais precisa do público-alvo e uma abordagem mais personalizada na interação com os usuários."
         ],
         "photos": [
-            ""
+            "assets/algorithm/anuncios-alg.jpg"
         ]
     },
     {
@@ -63,7 +68,7 @@ export const dataFakeContent = [
     },
     {
         "id": "5",
-        "title": "Quais são os principais componentes de um algoritmo?",
+        "title": "Principais componentes de um algoritmo",
         "paragraphs": [
             "Um algoritmo é composto por uma série de componentes essenciais para o seu funcionamento. São eles:",
             "1. Entrada: Representa os dados iniciais que serão processados pelo algoritmo. Esses dados podem assumir diferentes formas, como números, textos, imagens ou áudio, dependendo do contexto do problema.",
@@ -88,7 +93,7 @@ export const dataFakeContent = [
             "Além disso, linguagens como JavaScript e PHP são muito populares para o desenvolvimento web. JavaScript é utilizada para tornar páginas da web mais interativas e flexíveis, enquanto PHP é comumente empregada no back end, integrando-se bem com HTML e bancos de dados para estruturar e processar informações no lado do servidor."
         ],
         "photos": [
-            ""
+            "assets/generic/img-generica-2.jpeg"
         ]
     },
     {
@@ -106,7 +111,9 @@ export const dataFakeContent = [
             "5. Condicionais: Instruções que permitem que o programa tome decisões com base em condições específicas, executando diferentes ações de acordo com o resultado."
         ],
         "photos": [
-            ""
+            "assets/generic/img-generica-7.png",
+            "assets/generic/img-generica-5.png"
+
         ]
     },
     {
@@ -118,7 +125,8 @@ export const dataFakeContent = [
             "A capacidade de programar não apenas se tornou uma habilidade crucial no mercado de trabalho, mas também promove a resolução de problemas complexos e estimula o pensamento criativo."
         ],
         "photos": [
-            ""
+            "assets/programacao/casa-inteligente-prog.jpg",
+            "assets/programacao/realidade-virtual-prog.jpg"
         ]
     },
     {
@@ -130,7 +138,7 @@ export const dataFakeContent = [
             "Assim como uma receita de cozinha, o código-fonte pode ser modificado e aprimorado para corrigir erros, adicionar novas funcionalidades ou tornar o programa mais eficiente. O código-fonte é o ponto de partida para criar algo que funcione no mundo digital."
         ],
         "photos": [
-            ""
+            "assets/programacao/codigo-fonte-prog.png"
         ]
     },
     {
@@ -171,7 +179,7 @@ export const dataFakeContent = [
             "Existem vários tipos de estruturas de dados, como listas, filas, pilhas e até mesmo árvores e mapas. Cada uma tem suas próprias características e benefícios, e escolher a estrutura certa é como ter um mapa para construir programas eficientes e inteligentes."
         ],
         "photos": [
-            ""
+            "assets/data-structure/estrutura-1-data.jpg"
         ]
     },
     {
@@ -187,7 +195,7 @@ export const dataFakeContent = [
             "Esses tipos de dados são a base de tudo na programação, e a gente usa eles o tempo todo pra criar programas que fazem coisas incríveis!"
         ],
         "photos": [
-            ""
+            "assets/data-structure/estrutura-2-data.jpg"
         ]
     },
     {
@@ -209,7 +217,7 @@ export const dataFakeContent = [
     },
     {
         "id": "15",
-        "title": "Qual a relação entre algoritmos e estruturas de dados?",
+        "title": "Relação entre algoritmos e estrutura de dados",
         "paragraphs": [
             "A relação entre as estruturas de dados e os algoritmos é bem importante porque elas trabalham juntas para fazer o sistema funcionar direitinho.",
             "Olha só: os algoritmos são como as regras que o sistema segue para mexer nos dados. E as estruturas de dados são como as prateleiras onde esses dados ficam guardados e organizados.",
@@ -220,7 +228,7 @@ export const dataFakeContent = [
             "Então, resumindo: estruturas de dados e algoritmos são tipo parceiros de longa data, trabalhando juntos para fazer o sistema funcionar do jeito mais esperto possível!"
         ],
         "photos": [
-            ""
+            "assets/data-structure/estrutura-5-data.jpg"
         ]
     },
     {
@@ -238,7 +246,7 @@ export const dataFakeContent = [
             "Legal, né?"
         ],
         "photos": [
-            ""
+            "assets/data-structure/estrutura-4-data.jpg"
         ]
     },
 ];

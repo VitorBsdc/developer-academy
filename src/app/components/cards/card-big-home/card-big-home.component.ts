@@ -12,6 +12,8 @@ export class CardBigHomeComponent implements OnInit {
   titleCardBig:string = ""
   @Input()
   descriptionCardBig:string = ""
+  @Input()
+  imgCardBig:string = ""
 
   constructor() { }
 

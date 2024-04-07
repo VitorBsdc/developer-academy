@@ -10,6 +10,8 @@ export class CardSmallHomeComponent implements OnInit {
   getRoute:string = ""
   @Input()
   titleCardSmall:string = ""
+  @Input()
+  imgCardSmall:string = ""
 
   constructor() { }
 

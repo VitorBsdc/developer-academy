@@ -12,6 +12,7 @@
     }
     .text{
         font-size: 0.8rem;
+        padding-bottom: 10px;
     }
 }
 @media screen and (max-width: 320px) {
